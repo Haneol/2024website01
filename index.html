@@ -26,10 +26,79 @@
 </head>
 <body>
     <!-- header -->
-    <header class="hd"></header>
+    <header class="hd fixed-top bg-white">
+        <div class="header_container font_en d-flex justify-content-between pt-2 px-3">
+            <ul class="d-flex align-items-center gap-2 px-0">
+                <li class="lang fs_11 d-flex justify-content-center align-items-center gap-2">
+                    <img src="./images/lang_kor.gif" alt="" width="13px" height="11px">
+                    <a href="#">KOR</a>
+                    <img src="./images/lang_arr.gif" alt="" width="7px" height="5px">
+                </li>
+                <li><a href="#"><img src="./images/sns_facebook.gif" alt=""></a></li>
+                <li><a href="#"><img src="./images/sns_insta.gif" alt=""></a></li>
+                <li><a href="#"><img src="./images/sns_youtube.png" alt=""></a></li>
+            </ul>
+            <ul class="monami-light-gray site d-flex align-items-center gap-2 fs_11">
+                <li><a href="#" class="monami-light-gray">HOME</a></li>
+                <li>|</li>
+                <li><a href="#" class="monami-light-gray">SITE MAP</a></li>
+                <li>|</li>
+                <li><a href="#" class="monami-light-gray">CONTACT US</a></li>
+            </ul>
+        </div>
+        
+        <hr class="m-0 monami-light-gray">
+
+        <nav class="py-0 header_container px-3 menu navbar navbar-expand-lg">
+            <div class="">
+              <a class="navbar-brand" href="#">
+                <img src="./images/logo.jpg" alt="">
+              </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="py-0 my-0 collapse navbar-collapse d-lg-flex justify-content-center" id="navbarSupportedContent" style="height: 100%;">
+              <ul class="navbar-nav mb-2 mb-lg-0 fs_17" style="height: 100%;">
+                <li class="nav-item px-2" style="height: 100%;">
+                  <a class="nav-link" aria-current="page" href="#" style="height: 100%;">모나미소개</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link" aria-current="page" href="#">모나미제품</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link font_en" aria-current="page" href="#">NEWS & VIDEO</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link" aria-current="page" href="#">모나미 미술대회</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link" aria-current="page" href="#">고객지원</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link" aria-current="page" href="#">기업 구매 / 개발</a>
+                </li>
+            </div>
+            <div class="menu_icon collapse navbar-collapse d-lg-flex justify-content-end gap-2">
+                <img src="./images/btn_search.gif" alt="">
+                <div class="hamburger-menu" onclick="toggleMenu(this)">
+                    <div class="bar bar1"></div>
+                    <div class="bar bar2"></div>
+                    <div class="bar bar3"></div>
+                </div>
+            </div>
+          </nav>
+    </header>
 
     <!-- visual -->
-    <div class="visual"></div>
+    <div class="header_area"></div>
+
+    <div class="visual d-flex align-items-center">
+        <div class="container">
+            <h3 class="fs_50 text-white fw-lighter mb-5">어쩌면 삶은<br>인생이라는 종이 위에<br>써 내려가는<br>펜의 기록 같습니다.</h3>
+            <p class="fs_15">그중에서도 지우고 싶지 않은 기록이 있습니다.<br>모나미는 언제나 당신의 행복한 기록과 함께 합니다.</p>
+        </div>
+    </div>
     
     <!-- new_sec -->
     <div class="new_sec"></div>
@@ -50,5 +119,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        function toggleMenu(x) {
+            x.classList.toggle("change");
+        }
+    </script>
 </body>
 </html>
