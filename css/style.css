@@ -28,6 +28,11 @@
     --button-color: #4A4A4A;
 }
 
+/* reset */
+*{margin: 0;padding: 0;box-sizing: border-box;}
+ul, li{list-style: none;}
+a:link, a:visited{text-decoration: none; color: black}
+
 body{
     font-family: "Noto Sans KR", sans-serif;
     font-optical-sizing: auto;
