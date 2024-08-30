@@ -1,9 +1,95 @@
 @charset "utf-8";
 
+/* global */
+
 :root{
-    /* variable */
-    --primary-color: #eee;
+    --monami-white: #DFDFDF;
+
+    --monami-light-gray0: #B3B3B3;
+    --monami-light-gray1: #9B9A9A;
+
+    --monami-gray0: #888888;
+    --monami-gray1: #6A6A6A;
+    --monami-gray2: #555555;
+
+    --monami-black: #303030;
+    --real-black: #000000;
+    
+    --monami-gray-t0: rgba(255, 255, 255, 0.8);
+    --monami-gray-t1: rgba(255, 255, 255, 0.5);
+    --monami-gray-t2: rgba(255, 255, 255, 0.4);
+    --monami-gray-t3: rgba(255, 255, 255, 0.3);
+    
+    --monami-red: #C40f39;
+    
+    --bg-color-white: #FFFFFF;
+    --bg-color-gray: #EEEEEE;
+    
+    --button-color: #4A4A4A;
 }
+
+body{
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* font */
+
+.font_en {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.fs_11 {
+    font-size: 11px;
+}
+
+.fs_12 {
+    font-size: 12px;
+}
+
+.fs_13{
+    font-size: 13px;
+}
+
+.fs_13_5 {
+    font-size: 13.5px;
+}
+
+.fs_14 {
+    font-size: 14px;
+}
+
+.fs_15 {
+    font-size: 15px;
+}
+
+.fs_17 {
+    font-size: 17px;
+}
+
+.fs_20 {
+    font-size: 20px;
+}
+
+.fs_21 {
+    font-size: 21px;
+}
+
+.fs_24 {
+    font-size: 24px;
+}
+
+.fs_32 {
+    font-size: 32px;
+}
+
+.fs_50 {
+    font-size: 50px;
+}
+
 
 .container{
     width: 1300px;
