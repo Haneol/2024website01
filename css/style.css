@@ -435,6 +435,11 @@ s
     margin: 0 1em;
 }
 
+.p_tabs a:hover{
+    color: var(--monami-red);
+    border-color: var(--monami-red);
+}
+
 .p_tabs .on{
     color: var(--monami-red);
     border-color: var(--monami-red);
@@ -474,6 +479,7 @@ s
     width: 266px;
     height: 82px;
     box-sizing: border-box;
+    white-space: normal !important;
 }
 
 .best_slide .item_card .cate{
