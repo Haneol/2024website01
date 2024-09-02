@@ -473,6 +473,7 @@ s
     width: 266px;
     height: 82px;
     box-sizing: border-box;
+    white-space: normal !important;
 }
 
 .best_slide .item_card .cate{
