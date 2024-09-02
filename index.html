@@ -593,14 +593,14 @@
         </div>
         <div class="p_info">
             <div class="infoWrap">
-                <span class="arr1">
+                <!-- <span class="arr1"> -->
                     <img src="./images/p_arr1.gif" alt="" class="arr1">
-                </span>
-                <span class="arr2">
+                <!-- </span> -->
+                <!-- <span class="arr2"> -->
                     <img src="./images/p_arr2.gif" alt="" class="arr2">
-                </span>
+                <!-- </span> -->
                 <div class="ds fs_12">
-                    <div class="drag_img">
+                    <div class="drag_img d-flex justify-content-center">
                         <img src="./images/p_cursor.gif" alt="">
                     </div>
                     DRAG & SCROLL
@@ -672,6 +672,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dragscroll/0.0.8/dragscroll.min.js" integrity="sha512-/ncZdOhQm5pgj5KHy720Ck7XF5RzYK6rtUsLNnGcitXrKT3wUYzTrPlOSG7SdL2kDzkuLEOFvrQRyllcZkeAlg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./horizontal.js"></script>
     <script>
         const btns = $(".p_tabs .catebtn a")
 
@@ -687,8 +688,11 @@
             console.log(selector)
 
             $(".best_sec .card_wrap").isotope({
-                layoutMode: "horizontal",
-                filter: selector
+                layoutMode: 'horiz',
+                filter: selector,
+                horiz:{
+                    verticalAlignment:0.5
+                }
             })
         })
 
