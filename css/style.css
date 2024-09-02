@@ -195,16 +195,22 @@ body {
     height: 100vh;
     background: url(../images/visual1.jpg) no-repeat center;
     background-size: cover;
+    position: relative;
 }
 
-.visual h3:before{
-    content: "";
+.visual .visual_text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.visual .visual_text .visual_line{
     background-color: white;
     width: 75px;
     height: 2px;
-    position: absolute;
-    top: 210px;
+    position: relative;
     z-index: 1;
+    margin-bottom: 10px;
 }
 
 .visual p{
