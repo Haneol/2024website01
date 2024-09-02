@@ -29,6 +29,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- style -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -207,21 +210,45 @@
 
     <!-- footer -->
     <footer class="ft">
-        <div class="footer_container">
+        <div class="footer_container px-3">
             <div class="foot_top d-flex justify-content-between align-items-center">
                 <h1> <img src="/images/foot_logo.jpg" alt="">
                 </h1>
                 <ul class="fm align-items-center d-flex mb-0">
                     <li>
-                        <a href="#!" class="fs_13_5">회사소개</a>
+                        <a href="#!" class="fs_13_5 foot_color">회사소개</a>
                     </li>
                     <li>
                         <a href="#!" class="fs_14 text-white">개인정보처리방침</a>
                     </li>
                     <li>
-                        <a href="#!" class="fs_13_5">이메일무단수집거부</a>
+                        <a href="#!" class="fs_13_5 foot_color">이메일무단수집거부</a>
                     </li>
                 </ul>
+            </div>
+        </div>
+        <hr class="mb-1">
+        <div class="footer_container d-flex justify-content-between px-3">
+            <div class="d-flex gap-5">
+                <div class="info">
+                    <h4 class="fs_15 text-white font_en">INFO</h4>
+                    <p class="fs_14 footer_color02 mb-0">ADDRESS : 경기도 용인시 수지구 손곡로 17 l TEL : 031-216-0153 l FAX : 031-270-5154</p>
+                    <p class="fs_12 footer_color02">COPYRIGHT(C) MONAMI.CO.,LTD. ALL RIGHTS RESERVED.</p>
+                </div>
+                <div class="customer_center">
+                    <h4 class="fs_15 text-white font_en">CUSTOMER CENTER</h4>
+                    <h4 class="fs_24 footer_color02 font_en fw-light">080-022-0153</h4>
+                    <button class="btn_kakao fs_13_5 d-flex align-items-center justify-content-center">
+                        <p class="">카카오톡 문의</p>
+                        <i class="fa-solid fa-angle-right footer_color03"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="family_site">
+                <button class="btn_fam d-flex align-items-center justify-content-between px-3 py-0">
+                    <h4 class="fs_13 footer_color02 font_en p-0 m-0">FAMILY SITE</h4>
+                    <i class="fa-solid fa-angle-up footer_color02"></i>
+                </button>
             </div>
         </div>
     </footer>
@@ -253,6 +280,7 @@
             x.classList.toggle("change");
         }
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>

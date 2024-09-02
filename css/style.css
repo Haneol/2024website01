@@ -454,6 +454,41 @@ video {
     background: url(/images/fm_bar.gif) no-repeat right center;
 }
 
-.foot_top .fm li a {
-    color: rgba(255, 255, 255, 0.5);
+.foot_color{
+    color: var(--monami-gray-t1) !important;
+}
+
+.ft .footer_color02{
+    color: var(--monami-gray-t3) !important;
+}
+
+.ft .customer_center .btn_kakao{
+    background-color: var(--button-color);
+    color: var(--monami-white);
+    border: 1px solid var(--monami-gray0);
+    border-radius: 6px;
+    width: 155px;
+    height: 32px;
+}
+
+.ft .customer_center .btn_kakao p{
+    display: inline-block;
+    padding: 0 6px;
+    margin: 0;
+}
+
+.ft .customer_center .btn_kakao .footer_color03{
+    width: 7px;
+    height: 15px;
+    color: var(--monami-gray0) !important;
+}
+
+.ft .family_site .btn_fam{
+    background-color: #111;
+    position: relative;
+    width: 242px;
+    height: 34px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
 }
